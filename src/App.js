@@ -11,13 +11,13 @@ function App() {
   return (
     <Layout>
       <Switch>
-        <Route path='/' exact>
+        <Route path='/react-app-2/' exact>
           <AllMeetupsPage />
         </Route>
-        <Route path='/favorites'>
+        <Route path='/react-app-2/favorites'>
           <FavoritesPage />
         </Route>
-        <Route path='/new-meetups'>
+        <Route path='/react-app-2/new-meetups'>
           <NewMeetupsPage />
         </Route>
       </Switch>
