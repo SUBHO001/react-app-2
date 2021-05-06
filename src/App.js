@@ -8,6 +8,9 @@ import Layout from './components/layout/Layout';
 function App() {
   //localhost:3000/
   //my-page.com/
+  //console.log(this.state);
+  console.log('this is the process.env', process.env.PUBLIC_URL);
+
   return (
     <Layout>
       <Switch>
